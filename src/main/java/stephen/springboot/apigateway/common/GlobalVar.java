@@ -1,4 +1,4 @@
-package stephen.webflux.apigateway.common;
+package stephen.springboot.apigateway.common;
 
 import java.util.UUID;
 

@@ -1,6 +1,6 @@
-package stephen.webflux.apigateway.common.response;
+package stephen.springboot.apigateway.common.response;
 
-import stephen.webflux.apigateway.common.GlobalVar;
+import stephen.springboot.apigateway.common.GlobalVar;
 
 public class ResponseResult<T> {
     private String requestId = GlobalVar.getRequestId();

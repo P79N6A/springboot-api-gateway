@@ -1,13 +1,11 @@
-package stephen.webflux.apigateway.service;
+package stephen.springboot.apigateway.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
-import stephen.webflux.apigateway.dao.ConfigDao;
-import stephen.webflux.apigateway.entity.ApiConfig;
+import stephen.springboot.apigateway.entity.ApiConfig;
 
-import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 /**

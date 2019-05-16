@@ -1,13 +1,13 @@
-package stephen.webflux.apigateway.service;
+package stephen.springboot.apigateway.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import stephen.webflux.apigateway.common.response.ResponseResult;
-import stephen.webflux.apigateway.dao.ConfigDao;
-import stephen.webflux.apigateway.entity.ApiConfig;
-import stephen.webflux.apigateway.entity.ApiMeta;
+import stephen.springboot.apigateway.common.response.ResponseResult;
+import stephen.springboot.apigateway.dao.ConfigDao;
+import stephen.springboot.apigateway.entity.ApiConfig;
+import stephen.springboot.apigateway.entity.ApiMeta;
 
 import javax.servlet.http.HttpServletRequest;
 

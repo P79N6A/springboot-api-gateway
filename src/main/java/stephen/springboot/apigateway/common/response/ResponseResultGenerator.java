@@ -1,4 +1,4 @@
-package stephen.webflux.apigateway.common.response;
+package stephen.springboot.apigateway.common.response;
 
 /**
  * 请求返回结果生成辅助类

@@ -1,4 +1,4 @@
-package stephen.webflux.apigateway.entity;
+package stephen.springboot.apigateway.entity;
 
 import lombok.Data;
 import lombok.experimental.Accessors;

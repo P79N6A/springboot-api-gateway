@@ -1,14 +1,14 @@
-package stephen.webflux.apigateway.controller;
+package stephen.springboot.apigateway.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import stephen.webflux.apigateway.common.response.ResponseResult;
-import stephen.webflux.apigateway.common.response.ResponseResultGenerator;
-import stephen.webflux.apigateway.entity.ApiConfig;
-import stephen.webflux.apigateway.service.AuthenticationService;
-import stephen.webflux.apigateway.service.AuthorizationService;
-import stephen.webflux.apigateway.service.ProxyService;
+import stephen.springboot.apigateway.common.response.ResponseResult;
+import stephen.springboot.apigateway.common.response.ResponseResultGenerator;
+import stephen.springboot.apigateway.entity.ApiConfig;
+import stephen.springboot.apigateway.service.AuthenticationService;
+import stephen.springboot.apigateway.service.AuthorizationService;
+import stephen.springboot.apigateway.service.ProxyService;
 
 import javax.servlet.http.HttpServletRequest;
 

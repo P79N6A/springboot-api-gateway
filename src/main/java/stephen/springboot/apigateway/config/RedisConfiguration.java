@@ -1,4 +1,4 @@
-package stephen.webflux.apigateway.config;
+package stephen.springboot.apigateway.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
